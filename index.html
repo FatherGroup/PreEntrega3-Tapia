@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Magic Multimedia</title>
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/7nxLYnR/mvlogo-transformed.png"
+    />
+    <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="justify-center text-white h-screen w-full">
+      <!-- Principal Background -->
+      <img
+        class="h-full w-full absolute -z-50"
+        src="https://i.ibb.co/QPBjYHG/joanna-kosinska-b-F2vsuby-Hc-Q-unsplash.jpg"
+        alt="background"
+      />
+      <!-- Nav -->
+      <nav class="flex justify-center items-center h-14">
+        <!-- Logo -->
+        <a href="#" class="h-14">
+          <img
+            class="h-full"
+            src="https://i.ibb.co/7nxLYnR/mvlogo-transformed.png"
+          />
+        </a>
+        <!-- Nav List -->
+        <ul class="flex font-normal text-xl">
+          <!-- Home Link -->
+          <li class="">
+            <a href="/" class="">Home</a>
+          </li>
+          <!-- About Us Link -->
+          <li class="mx-4">
+            <a href="#about" class="">Sobre Nosotros</a>
+          </li>
+          <!-- Services Link -->
+          <li class="mx-4">
+            <a href="#services" class="">Servicios</a>
+          </li>
+          <!-- Pojects Link -->
+          <li class="mx-4">
+            <a href="#projects" class="">Proyectos</a>
+          </li>
+          <!-- Contact Link -->
+          <li class="mx-4">
+            <a href="#contact" class="">Contactanos</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Hero Section -->
+      <section class="home-section flex flex-col  w-3/5 pl-20 pt-20 ">
+        <!-- Title -->
+        <h1 class="text-8xl font-medium tracking-normal">MAGIC MULTIMEDIA</h1>
+        <!-- Description -->
+        <p class="text-3xl mt-10 w-4/5">
+          Magic Multimedia es una empresa de refencia en el sector de eventos. Desarrollamos y creamos todo tipo de soluciones en video y fotografía.
+        </p>
+        <!-- Button with show-more icon -->
+        <a href="#about" class="h-32 mt-20">
+          <img
+            class="h-full"
+            src="./styles/show-icon.png"
+          />
+        </a>
+      </section>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-section flex flex-col bg-[#2C2A1F]">
+      <!-- About Section -->
+      <section id="about">
+        <!-- Here will be loaded the content of about.html -->
+      </section>
+      <!-- Services Section -->
+      <section id="services">
+        <!-- Here will be loaded the content of services.html -->
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <!-- Here will be loaded the content of projects.html -->
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <!-- Here will be loaded the content of contact.html -->
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="flex flex-col justify-center items-center ">
+      <div class="w-2/5 text-center">
+        <p class="">&copy; 2023 Magic Multimedia. Todos los derechos reservados.</p>
+        <p class="">Desarrollado por <a href="https://www.example.com">Tu Nombre</a></p>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
